@@ -2,7 +2,7 @@
 A command which cheers for you.
 
 # Demo
-![cheer](https://user-images.githubusercontent.com/90051826/171577389-2cbf86d1-ae43-4067-b6dc-34efeff30817.gif)
+![cheer2](https://user-images.githubusercontent.com/90051826/171603298-50f066c1-4e21-4a80-8b5f-a6e1cb19ceb0.gif)
 
 # Usage
 ```bash
