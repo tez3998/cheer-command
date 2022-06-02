@@ -19,5 +19,6 @@ int print_frame(char *filepath) {
         num_line++;
     }
 
+    fclose(input_file);
     return num_line;
 }
