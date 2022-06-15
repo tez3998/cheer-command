@@ -4,6 +4,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int print_frame(char *filepath);
+int print_frame(char *file_path);
 
 #endif

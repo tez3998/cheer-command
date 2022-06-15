@@ -1,15 +1,15 @@
 #include "print_frame.h"
 
-int print_frame(char *filepath) {
+int print_frame(char *file_path) {
     const int MAX_STR_LENGTH = 256;
     
     int num_line;
     char line[MAX_STR_LENGTH];
     FILE *input_file;
 
-    input_file = fopen(filepath, "r");
+    input_file = fopen(file_path, "r");
     if (input_file == NULL) {
-        fprintf(stderr, "Could not open the file: %s", filepath);
+        fprintf(stderr, "Could not open the file: %s", file_path);
         exit(1);
     }
 
