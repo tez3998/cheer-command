@@ -7,7 +7,7 @@ A command which cheers for you.
 # Usage
 
 ```
-cd src
+cd src/
 ```
 
 ```bash
