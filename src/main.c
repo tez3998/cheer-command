@@ -14,15 +14,15 @@ void print_and_clear_frame(char *frame_path) {
 
 
 int main() {
-    char *frame_1 = "../frames/normal";
-    char *frame_2 = "../frames/handsup";
-    char *frame_3 = "../frames/handsup2";
+    char *frame_normal = "../frames/normal";
+    char *frame_handsup_1 = "../frames/handsup";
+    char *frame_handsup_2 = "../frames/handsup2";
 
     while (1) {
-        print_and_clear_frame(frame_1);
-        print_and_clear_frame(frame_2);
-        print_and_clear_frame(frame_1);
-        print_and_clear_frame(frame_3);
+        print_and_clear_frame(frame_normal);
+        print_and_clear_frame(frame_handsup_1);
+        print_and_clear_frame(frame_normal);
+        print_and_clear_frame(frame_handsup_2);
     }
 
     return 0;
