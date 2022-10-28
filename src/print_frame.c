@@ -1,8 +1,6 @@
 #include "print_frame.h"
 
 int print_frame(char *file_path) {
-    const int MAX_STR_LENGTH = 256;
-    
     int num_line;
     char line[MAX_STR_LENGTH];
     FILE *input_file;
